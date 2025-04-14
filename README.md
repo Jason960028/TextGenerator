@@ -43,3 +43,28 @@ Prerequisites
 - A Command-Line Environment: Such as a terminal on macOS/Linux or Command Prompt/PowerShell on Windows.
 
 - Optional IDE: IntelliJ IDEA, Eclipse, or NetBeans can be used for easier project management.
+
+Usage Example
+Below is an example of running the application:
+```
+Enter a seed word: hello
+Top possibilities after 'hello': world example test 
+Enter the number of words to generate: 20
+Enter mode ('all' or 'one'): all
+Generated Text:
+hello world how are you doing on this beautiful day with an example text generator in java.
+```
+- Seed Word: The starting point for text generation.
+
+- Possibility Display: The application shows the top 3 possible transitions from the seed word.
+
+- Mode Selection: In all mode, words are chosen randomly based on frequency; in one mode, the most frequent word is always selected.
+
+
+
+
+
+
+
+
+
