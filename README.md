@@ -7,13 +7,8 @@ TextGenerator is a Java-based application that uses Markov Chains to generate te
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Prerequisites](#prerequisites)
-- [Installation and Setup](#installation-and-setup)
-- [Compilation and Running](#compilation-and-running)
 - [Usage Example](#usage-example)
 - [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Features
 
@@ -59,6 +54,13 @@ hello world how are you doing on this beautiful day with an example text generat
 - Possibility Display: The application shows the top 3 possible transitions from the seed word.
 
 - Mode Selection: In all mode, words are chosen randomly based on frequency; in one mode, the most frequent word is always selected.
+
+## Customization
+- Adjusting Generation Modes: The MarkovGenerator.java file provides a method selectNextWord that you can modify if you want to introduce new ways to select the next word.
+
+- Modifying Tokenization: The method tokenization in MarkovGenerator.java can be altered to change how words and numbers are extracted from the text.
+
+- Extending Functionality: Feel free to add new methods or classes to improve the generator, such as support for larger input files or integration with GUIs.
 
 
 
