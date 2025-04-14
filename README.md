@@ -36,10 +36,10 @@ TextGenerator/
 │       └── MarkovGenerator.java  # Implements Markov chain logic and text generation.
 ├── .gitignore                 # Git ignore file to exclude build artifacts and IDE settings.
 └── README.md                  # This file.
-
+```
 Prerequisites
-Java Development Kit (JDK): Version 8 or later is recommended.
+- Java Development Kit (JDK): Version 8 or later is recommended.
 
-A Command-Line Environment: Such as a terminal on macOS/Linux or Command Prompt/PowerShell on Windows.
+- A Command-Line Environment: Such as a terminal on macOS/Linux or Command Prompt/PowerShell on Windows.
 
-Optional IDE: IntelliJ IDEA, Eclipse, or NetBeans can be used for easier project management.
+- Optional IDE: IntelliJ IDEA, Eclipse, or NetBeans can be used for easier project management.
