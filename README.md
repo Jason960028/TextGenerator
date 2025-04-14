@@ -37,14 +37,14 @@ TextGenerator/
 ├── .gitignore                 # Git ignore file to exclude build artifacts and IDE settings.
 └── README.md                  # This file.
 ```
-Prerequisites
+## Prerequisites
 - Java Development Kit (JDK): Version 8 or later is recommended.
 
 - A Command-Line Environment: Such as a terminal on macOS/Linux or Command Prompt/PowerShell on Windows.
 
 - Optional IDE: IntelliJ IDEA, Eclipse, or NetBeans can be used for easier project management.
 
-Usage Example
+## Usage Example
 Below is an example of running the application:
 ```
 Enter a seed word: hello
