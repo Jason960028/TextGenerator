@@ -1,18 +1,16 @@
-## Getting Started
+# TextGenerator: Markov Chain Text Generator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is a simple text generator using Markov Chains. The application reads a dictionary file, builds a transitional probability dictionary of words, and then generates text based on user inputs. It demonstrates the use of Java collections, file I/O, and basic algorithmic design.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- **Markov Chain Text Generation:** Create a dictionary of word transitions from a text file.
+- **Seed-Based Generation:** Start generation from a user-specified seed word.
+- **Generation Modes:**
+  - **Weighted Random (`all`):** Generates text based on the probabilities of each following word.
+  - **Highest Frequency (`one`):** Always selects the most frequent word.
+- **Command-Line Interface:** Users interact with the application through the terminal.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Project Structure
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+TextGenerator/ ├── src/ │ ├── dictionary.txt # Input text file for building the dictionary. │ └── TextGenerator/ │ ├── Main.java # Main class with the CLI. │ └── MarkovGenerator.java # Contains the Markov chain generation logic. └── README.md
